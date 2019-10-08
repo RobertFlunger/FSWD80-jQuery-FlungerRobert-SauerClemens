@@ -1,0 +1,97 @@
+var articles = [{
+
+   "article_id": "1",
+
+   "description": "A 319",
+
+   "type_of_food" : "commercial_airplane",
+
+   "price" : 1000,
+
+   "currency" : "USD",
+
+   "link_online_pic" : "https://cdn.pixabay.com/photo/2016/09/20/20/48/airbus-a319-1683393_960_720.jpg",
+   
+   "number_of_stock" : 20
+
+   } , {
+
+  "article_id": "2",
+
+   "description": "A 320",
+
+   "type_of_food" : "commercial_airplane",
+
+   "price" : 1200,
+
+   "currency" : "USD",
+
+   "link_online_pic" : "https://cdn.pixabay.com/photo/2014/03/29/18/19/aircraft-301030_960_720.jpg",
+   
+   "number_of_stock" : 20
+
+    }, {
+
+  "article_id": "3",
+
+   "description": "A 321",
+
+   "type_of_food" : "commercial_airplane",
+
+   "price" : 1800,
+
+   "currency" : "USD",
+
+   "link_online_pic" : "https://cdn.pixabay.com/photo/2017/08/20/17/10/airbus-2662431_960_720.jpg",
+   
+   "number_of_stock" : 20
+
+   }, {
+
+  "article_id": "4",
+
+   "description": "A 340",
+
+   "type_of_food" : "commercial_airplane",
+
+   "price" : 3400,
+
+   "currency" : "USD",
+
+   "link_online_pic" : "https://cdn.pixabay.com/photo/2016/09/20/20/48/airbus-a340-1683392_960_720.jpg",
+   
+   "number_of_stock" : 5
+
+	}, {
+
+  "article_id": "5",
+
+   "description": "A 350",
+
+   "type_of_food" : "commercial_airplane",
+
+   "price" : 4000,
+
+   "currency" : "USD",
+
+   "link_online_pic" : "https://cdn.pixabay.com/photo/2015/06/04/22/48/airbus-797945_960_720.jpg",
+   
+   "number_of_stock" : 2
+
+	}, {
+
+  "article_id": "6",
+
+   "description": "A 380",
+
+   "type_of_food" : "commercial_airplane",
+
+   "price" : 8000,
+
+   "currency" : "USD",
+
+   "link_online_pic" : "https://cdn.pixabay.com/photo/2018/10/06/23/30/airport-3728958_960_720.jpg",
+   
+   "number_of_stock" : 1
+   
+}];

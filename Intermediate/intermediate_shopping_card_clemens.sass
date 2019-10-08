@@ -1,0 +1,62 @@
+$setting: 90deg, rgba(8,40,238,1) 0%, rgba(0,215,255,1) 45%, rgba(238,238,8,1) 100%
+$setting2: 0px 0px 60px 5px rgba(0,0,0,0.5)
+
+body
+	background-image: linear-gradient($setting)
+	-webkit-linear-gradient: $setting
+	-moz-linear-gradient: $setting
+	-ms-linear-gradient: $setting
+	font-family: Arial
+
+h1
+	font-weight: bold
+	text-transform: uppercase
+	text-align: center
+	color: #d92020
+	font-size: 40px
+
+h2
+	@extend h1
+	font-size: 30px
+	color: blue
+
+.Africa
+	display: flex
+	flex-wrap: wrap
+
+.Europe
+	@extend .Africa
+
+.USA
+	@extend .Africa
+
+.pictures img
+	width: 400px
+	height: 300px
+	padding: 3px
+	-webkit-box-shadow: $setting2
+	-moz-box-shadow: $setting2
+	box-shadow: $setting2
+
+.pictures p
+	text-align: center
+	font-weight: bold
+
+
+@media screen and (max-width: 480px)
+	.pictures img
+		width: 177.78px
+		height: 133.33px
+		padding: 1.33px
+
+@media screen and (min-width: 481px) and (max-width: 1200px) 
+	.pictures img
+		width: 266.67px
+		height: 200px
+		padding: 2px
+
+@media screen and (min-width:1201px)
+	.pictures img
+		width: 400px
+		height: 300px
+		padding: 3px
