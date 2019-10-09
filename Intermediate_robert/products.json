@@ -1,0 +1,46 @@
+var products = `[{
+		"id" : "01",
+		"name" : "A-One Instant Noodles",
+		"price" : 0.70,
+		"thumbnail" : "pics/01.jpg"
+	} , {
+		"id" : "02",
+		"name" : "B-One Instant Noodles",
+		"price" : 0.75,
+		"thumbnail" : "pics/01.jpg"
+	} , {
+		"id" : "03",
+		"name" : "C-One Instant Noodles",
+		"price" : 0.69,
+		"thumbnail" : "pics/01.jpg"
+	} , {
+		"id" : "04",
+		"name" : "A-One Instant Noodles",
+		"price" : 0.69,
+		"thumbnail" : "pics/01.jpg"
+	} , {		
+		"id" : "05",
+		"name" : "A-One Instant Noodles",
+		"price" : 0.69,
+		"thumbnail" : "pics/01.jpg"
+	} , {
+		"id" : "06",
+		"name" : "A-One Instant Noodles",
+		"price" : 0.69,
+		"thumbnail" : "pics/01.jpg"
+	} , {	
+		"id" : "07",
+		"name" : "A-One Instant Noodles",
+		"price" : 0.69,
+		"thumbnail" : "pics/01.jpg"
+	} , {	
+		"id" : "08",
+		"name" : "A-One Instant Noodles",
+		"price" : 0.69,
+		"thumbnail" : "pics/01.jpg"
+	} , {	
+		"id" : "09",
+		"name" : "A-One Instant Noodles",
+		"price" : 0.69,
+		"thumbnail" : "pics/01.jpg"
+	}]`

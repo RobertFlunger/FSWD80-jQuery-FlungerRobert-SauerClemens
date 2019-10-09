@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Basic Exercise JQuery Day 02</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<style>
+		.christmas:hover {
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	
+	<img src="giftbox.png" width="250px" id="gift" class="christmas">
+	<img src="santa.png" width="250px" id="santa" class="christmas">
+	<img src="bells.png" width="250px" id="bells" class="christmas">
+
+<script>
+	$(document).ready(function(){
+
+		$("#gift").on("click", function() {
+			alert("You clicked on the white gift box!");
+		})
+		$("#santa").on("click", function() {
+			alert("You clicked on Santa!");
+		})
+		$("#bells").on("click", function() {
+			alert("You clicked on the christmas bells!");
+		})
+
+
+
+
+
+
+
+	});
+
+</script>
+
+</body>
+</html>

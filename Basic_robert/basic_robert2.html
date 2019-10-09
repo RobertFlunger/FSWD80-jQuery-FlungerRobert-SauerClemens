@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Basic Exercise JQuery Day 02</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<style>
+		.christmas:hover {
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+
+<div>
+	<img src="giftbox.png" class="christmas">
+	<img src="santa.png" class="christmas santa" id="santa1">
+	<img src="giftbox.png" class="christmas">
+	<img src="giftbox.png" class="christmas">
+	<img src="santa.png" class="christmas santa" id="santa2">
+	<img src="giftbox.png" class="christmas">
+	<img src="santa.png" class="christmas santa" id="santa3">
+	<img src="giftbox.png" class="christmas">
+	<img src="santa.png" class="christmas santa" id="santa4">
+</div>
+
+
+
+
+<script>
+	$(document).ready(function(){
+		$("div").css({"width": "1100px", 
+			"margin": "0 auto",
+			"display" : "flex",
+			"flex-wrap" : "wrap",
+			"justify-content" : "space-around",
+			"border" : "1 px solid black"});
+		$(".christmas").css("width", "300px");
+
+		$(".santa").on('click', function() {
+			var clicked = $(this).attr("id");
+			$("#" + clicked).css("visibility", "hidden");
+		});
+
+	});
+
+
+
+</script>
+
+</body>	
